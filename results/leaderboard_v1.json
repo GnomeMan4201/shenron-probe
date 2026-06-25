@@ -1,0 +1,95 @@
+{
+  "shenron_probe_version": "0.1.0",
+  "results": [
+    {
+      "model": "mistral:latest",
+      "level": "L1",
+      "aggregate": 0.527,
+      "D1_technique": 1.0,
+      "D2_next_stage": 0.583,
+      "D3_sigma": 0.0,
+      "fatal_errors": "2/2",
+      "avg_latency_s": 96.7
+    },
+    {
+      "model": "mistral:latest",
+      "level": "L2",
+      "aggregate": 0.149,
+      "D1_technique": 0.0,
+      "D2_next_stage": 0.167,
+      "D3_sigma": 0.28,
+      "fatal_errors": "0/2",
+      "avg_latency_s": 92.8
+    },
+    {
+      "model": "mistral:latest",
+      "level": "L3",
+      "aggregate": 0.344,
+      "D1_technique": 0.25,
+      "D2_next_stage": 0.25,
+      "D3_sigma": 0.53,
+      "fatal_errors": "0/2",
+      "avg_latency_s": 99.7
+    },
+    {
+      "model": "llama3:latest",
+      "level": "L1",
+      "aggregate": 0.5,
+      "D1_technique": 1.0,
+      "D2_next_stage": 0.5,
+      "D3_sigma": 0.0,
+      "fatal_errors": "2/2",
+      "avg_latency_s": 69.0
+    },
+    {
+      "model": "llama3:latest",
+      "level": "L2",
+      "aggregate": 0.298,
+      "D1_technique": 0.01,
+      "D2_next_stage": 0.333,
+      "D3_sigma": 0.55,
+      "fatal_errors": "0/3",
+      "avg_latency_s": 89.9
+    },
+    {
+      "model": "llama3:latest",
+      "level": "L3",
+      "aggregate": 0.175,
+      "D1_technique": 0.0,
+      "D2_next_stage": 0.167,
+      "D3_sigma": 0.36,
+      "fatal_errors": "0/2",
+      "avg_latency_s": 106.7
+    },
+    {
+      "model": "qwen2.5:3b",
+      "level": "L1",
+      "aggregate": 0.39,
+      "D1_technique": 0.618,
+      "D2_next_stage": 0.278,
+      "D3_sigma": 0.273,
+      "fatal_errors": "2/3",
+      "avg_latency_s": 17.7
+    },
+    {
+      "model": "qwen2.5:3b",
+      "level": "L2",
+      "aggregate": 0.301,
+      "D1_technique": 0.01,
+      "D2_next_stage": 0.333,
+      "D3_sigma": 0.558,
+      "fatal_errors": "0/3",
+      "avg_latency_s": 24.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "level": "L3",
+      "aggregate": 0.245,
+      "D1_technique": 0.0,
+      "D2_next_stage": 0.333,
+      "D3_sigma": 0.403,
+      "fatal_errors": "0/3",
+      "avg_latency_s": 30.7
+    }
+  ]
+}
